@@ -2,7 +2,6 @@
 
 一个基于 **TypeScript + Next.js + Vercel AI SDK** 的多模态视觉 Agent 项目。上传图片即可与 AI 对话，支持图片描述、OCR 文字提取、图表分析、多图对比、结构化 JSON 提取，以及远程图片链接分析。
 
-> 由 Python 版多模态 Agent 概念（OpenAI Vision / ModalityRouter / VisionTool）用前端技术栈重写而成。
 
 ## 技术栈
 
@@ -18,15 +17,10 @@
 ## 快速开始
 
 ```bash
-# 1. 安装依赖（项目已在 D 盘，npm 缓存与全局包也在 D 盘）
+# 1. 安装依赖
 npm install
 
-# 2. 配置环境变量
-cp .env.example .env.local
-# 编辑 .env.local，填入你的 OPENAI_API_KEY
-# 国内访问 OpenAI 可设置 OPENAI_BASE_URL 走中转/代理
-
-# 3. 启动开发服务器
+# 2. 启动开发服务器
 npm run dev
 # 打开 http://localhost:3000
 ```
